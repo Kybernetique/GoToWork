@@ -1,0 +1,35 @@
+﻿<Window x:Class="GoToWorkBoss.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GoToWorkBoss"
+        mc:Ignorable="d"
+        Title="Главное окно" Height="450" Width="600">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="67*"/>
+            <ColumnDefinition Width="83*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="25"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+
+        <Menu VerticalAlignment="Center" FontSize="16" Grid.ColumnSpan="2">
+            <MenuItem Name="miWorker" Header="Работники" Click="miWorker_Click"/>
+            <MenuItem Name="miShift" Header="Смены" Click="miShift_Click"/>
+            <MenuItem Name="miMachine" Header="Станки" Click="miMachine_Click"/>
+            <MenuItem Name="miGetList" Header="Получение списка" Click="miGetList_Click"/>
+            <MenuItem Name="miGetReport" Header="Отчет" Click="miGetReport_Click"/>
+            <MenuItem Name="miGetGraph" Header="График" Click="miGetGraph_Click"/>
+            <Separator />
+        </Menu>
+
+        <Grid.Background>
+            <ImageBrush ImageSource="Resources\logo.jpg" Stretch="UniformToFill"/>
+        </Grid.Background>
+
+    </Grid>
+
+</Window>

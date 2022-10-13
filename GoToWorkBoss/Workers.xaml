@@ -1,0 +1,25 @@
+﻿<Window x:Class="GoToWorkBoss.Workers"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GoToWorkBoss"
+        mc:Ignorable="d"
+        Title="Список работников" Height="400" Width="350"
+        Loaded="Window_Loaded">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition Height="40"/>
+            <RowDefinition Height="40"/>
+            <RowDefinition Height="40"/>
+            <RowDefinition Height="40"/>
+        </Grid.RowDefinitions>
+
+        <DataGrid Name="DataGridView" Grid.Row="0" Margin="5" BorderBrush="Black" AutoGeneratingColumn="DataGrid_AutoGeneratingColumn" ColumnWidth="*" IsReadOnly="True"/>
+        <Button Name="Add" Grid.Row="1" Margin="5" Content="Добавить" FontSize="16" Click="Add_Click"/>
+        <Button Name="Delete" Grid.Row="2" Margin="5" Content="Удалить" FontSize="16" Click="Delete_Click"/>
+        <Button Name="Change" Grid.Row="3" Margin="5" Content="Изменить" FontSize="16" Click="Change_Click"/>
+        <Button Name="Cancel"  Grid.Row="4" Margin="5" Content="Отмена" FontSize="16" Click="Cancel_Click" />
+    </Grid>
+</Window>
