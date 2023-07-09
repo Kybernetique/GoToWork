@@ -6,66 +6,69 @@
 •	**Регистрация.** Для регистрации пользователь должен заполнить следующие данные: логин и пароль. 
 После нажатия на кнопку «Создать», в базе данных появится информация о новом пользователе.
 
- ![image](https://github.com/a-shdv/gotowork-factory-desktop/assets/54847558/f4e52dd3-99c7-46eb-abde-8cfb0fb11675)
+![1](https://github.com/a-shdv/products-manufacturing-accounting/assets/54847558/42906ef4-17bf-44bd-acca-c8ab0ca21bb3)
 
 •	**Авторизация.** Пользователь вводит данные. Если такой пользователь есть в системе, то происходит переход к основной форме. Если такого пользователя нет в системе, выводится сообщение с просьбой ввести данные повторно. После чего переходит на форму главного меню.
 
- ![image](https://github.com/a-shdv/gotowork-factory-desktop/assets/54847558/49d21246-6dd4-47d0-be4a-2c50b3027cb6)
+![2](https://github.com/a-shdv/products-manufacturing-accounting/assets/54847558/3e578dbb-8beb-4fda-9840-dc651c7f18f3)
+
 
 •	**Основная форма.** Состоит из пунктов меню и логотипа. Через пункты меню можно перейти к форме работы с изделиями, деталями, актами приемки, получения отчёта по сменам, по актам приемки, построения графика актов приемки, а также можно просмотреть личные данные.
 
- ![image](https://github.com/a-shdv/gotowork-factory-desktop/assets/54847558/c8262000-f839-4e61-a98d-19af16984ae1)
+![3](https://github.com/a-shdv/products-manufacturing-accounting/assets/54847558/4f0f1fbc-7609-4eb4-a1f5-9d8ca582dfa0)
 
 •	**Добавление детали.** Имеется форма для добавления деталей с выбором названия детали, вводом его количества и кнопки для добавления и отмены. После добавления попадает в список деталей.
 
- ![image](https://github.com/a-shdv/gotowork-factory-desktop/assets/54847558/6a3f943f-803e-476a-93ec-5d30dbb19df2)
+![4](https://github.com/a-shdv/products-manufacturing-accounting/assets/54847558/c4050491-d7cd-4948-b32e-7673621056eb)
+
 
 •	**Добавление продукта.** Имеется форма для добавления продукта с выбором названия изделия и кнопками добавления или отмены. После добавления продукта оно попадает в список продуктов.
 
- ![image](https://github.com/a-shdv/gotowork-factory-desktop/assets/54847558/3149b3ee-e941-499b-9484-4ccb8704d49d)
+![5](https://github.com/a-shdv/products-manufacturing-accounting/assets/54847558/b725e9d2-7147-47e3-928e-56473bdecbf8)
 
 •	**Формирование детали.** Имеется форма для создания продуктов с вводом названия детали и его стоимости, а также кнопками добавления или отмены. 
 
- ![image](https://github.com/a-shdv/gotowork-factory-desktop/assets/54847558/f31fb45d-de56-4968-ae22-8e6fef6d3537)
+![6](https://github.com/a-shdv/products-manufacturing-accounting/assets/54847558/399928fa-190b-4d48-b3ce-3ed39ed5ca87)
 
 •	**Список деталей.** Имеется форма, содержащая кнопки добавления, удаления и изменения списка деталей, также кнопка отмены. При нажатии на добавить или изменить открывает нужную форму.
 
- ![image](https://github.com/a-shdv/gotowork-factory-desktop/assets/54847558/ec7ecc89-2eac-484e-aab0-c7ba1a939acd)
+![7](https://github.com/a-shdv/products-manufacturing-accounting/assets/54847558/bcfd33d0-d905-4df1-9f5c-8a6fa91057d4)
 
 •	**Формирование продукта.** Имеется форма со списком всех записей деталей и работников, а также кнопки добавления и удаления деталей и работников, кнопки сохранения или отмены и ввод цены и названия продукта.
 
- ![image](https://github.com/a-shdv/gotowork-factory-desktop/assets/54847558/6a726c58-5fad-4996-a60a-85c24e804dab)
+![8](https://github.com/a-shdv/products-manufacturing-accounting/assets/54847558/cf54ca51-6163-40e7-8fbb-b2e51dfd6323)
 
 •	**Список продуктов.** Имеется форма хранящая список продуктов с кнопками добавления, удаления, изменения в неё и с кнопкой отмены, при нажатии на кнопки добавить или изменить открывает нужную форму.
 
- ![image](https://github.com/a-shdv/gotowork-factory-desktop/assets/54847558/96398c9f-8700-47a2-b0de-bb9ce899aadb)
+![9](https://github.com/a-shdv/products-manufacturing-accounting/assets/54847558/05114ca5-425b-409f-9df0-4e5469dd23d6)
 
 •	**Формирование актов приёмки.** Имеется форма для создания актов приёмки с вводом названия, стоимости, датой подписания, кнопками добавления и удаления изделий, а также кнопками добавления или отмены.
 
- ![image](https://github.com/a-shdv/gotowork-factory-desktop/assets/54847558/1104a4dc-ae7a-4287-ba9f-0908fb7ea9fb)
+![10](https://github.com/a-shdv/products-manufacturing-accounting/assets/54847558/48beac39-d4e8-4fdc-ab4f-6b15c5e0102f)
 
 •	**Список актов приёмки.** Имеется форма со списком актов приёмки, а также кнопками для добавления, удаления или изменения актов, а также кнопки отмены. При нажатии на кнопку добавить или изменить открывает нужную форму.
 
- ![image](https://github.com/a-shdv/gotowork-factory-desktop/assets/54847558/46ed2ab7-2518-425a-915a-ebd955f8a547)
+![11](https://github.com/a-shdv/products-manufacturing-accounting/assets/54847558/dc2724a3-b086-4780-a04a-7caf2d8a8943)
 
 •	**Отчет по сменам.** Имеется форма со списком отчетов по сменам и кнопками добавить, удалить изделия, сохранить в Word или Excel формате отчет или кнопка отмены. При нажатии на добавить изделие открывает нужную форму.
 
-![image](https://github.com/a-shdv/gotowork-factory-desktop/assets/54847558/166ca930-b9c9-4e04-849d-87a04370ca4b)
+![12](https://github.com/a-shdv/products-manufacturing-accounting/assets/54847558/567bc5b1-f133-46fb-9963-85aae1d2f0cb)
 
-![image](https://github.com/a-shdv/gotowork-factory-desktop/assets/54847558/9313cad8-5ea6-4222-a6b9-ce9ef4de4658)
+![13](https://github.com/a-shdv/products-manufacturing-accounting/assets/54847558/e86ac945-e2e4-4cab-bdde-5b0e633be9da)
 
  
 При выводе в doc-файл и xls-файл формата документ будет следующим:
 
  
 •**Статистика изделий.** Имеется форма, содержащая кнопку для построения графика отношений по количеству изделий в каждом акте приёмки, а также выбор за какой период и список изделий на выбранный период.
- ![image](https://github.com/a-shdv/gotowork-factory-desktop/assets/54847558/d4c495a6-3e72-4484-bb85-921378764a5e)
+
+![14](https://github.com/a-shdv/products-manufacturing-accounting/assets/54847558/452e3af4-4045-4e4d-a44f-3568353e04f5)
 
 
 •	**Отчет по актам.** Имеется форма, которая показывает на форме или отправляет на почту при нажатии на кнопки отчет за выбранный период времени с выбором почты куда будет отправлен отчет. 
 
- ![image](https://github.com/a-shdv/gotowork-factory-desktop/assets/54847558/2bb21c62-9eae-47a1-bd98-1da631d83398)
+![15](https://github.com/a-shdv/products-manufacturing-accounting/assets/54847558/f4448ae7-8b67-4d64-bf7b-42f1e0375349)
 
 •	**Личные данные.** Имеется форма, которая показывает на форме личные данные аккаунта, через который пользователь авторизован. 
 
-![image](https://github.com/a-shdv/gotowork-factory-desktop/assets/54847558/fd8bd858-ca29-4a6c-8292-3de5212d0ac3)
+![16](https://github.com/a-shdv/products-manufacturing-accounting/assets/54847558/f75845b8-a2a9-454f-a680-9b8b8d0f7d89)
